@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>GetPro</title>
+  <style>
+body {
+    margin:0;
+    padding:0;
+    font-family: Helvetica;
+}
+#box {
+    width:80%;
+    height:60vh;
+    margin-left: 10%;
+}
+#u1, #u2, #u3 {
+    width:100%;
+    height:8vh;
+    background-color:#f1f1f1;
+    display:flex;
+    align-items: center;
+    justify-content: center
+}
+hr {
+    width:90%;
+    margin:0;
+    border:0;
+    height:0.2vh;
+    background-color:#e2e2e2;
+    margin-left:5%;
+}
+input {
+    border:0;
+    border-radius:6px;
+}
+#u4 {
+    width:100%;
+    height:6vh;
+    background-color:#fafafa;
+    display:flex;
+    align-items: center;
+    font-size:28px;
+}
+#u5 {
+    width:100%;
+    height: 2vh;
+    background-color:#fafafa;
+    display:flex;
+    align-items: center;
+    font-size:12px;
+    color:grey;
+}
+#u6 {
+    width:100%;
+    height: 6vh;    
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    color:black;
+    font-size:15px;
+}
+#u7 {
+    width:100%;
+    height: 6vh;    
+}
+#u8, #u9 {
+    width:90%;
+    margin-left:5%;
+    border-radius:20px;
+    height:6vh;
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    background-color:#effe11;
+}
+#u9 {
+    background-color:orange;
+    margin-top:2vh;
+    margin-bottom:2vh;
+}
+#namepro {
+    width: 100%;
+    height: 6vh;
+    display:flex;
+    align-items: center;
+    justify-content:center;
+}
+img {
+    width: 100%;
+    height: 100%;
+}
+  </style>
+</head>
+<body>
+  <div id="box">
+      <img src="https://i.ibb.co/WGbjkGL/download.jpg" alt="download" border="0">
+  </div>
+  <div id="namepro">
+      Redmi Note 11 (Space black 8GB, 128GB) 
+  </div>
+  <div id="u1">
+      Color : <b style="font-size:20px">&nbsp; Space black</b><input type="color"/>
+  </div>
+  <hr>
+  <div id="u2">
+      Size : <b style="font-size:20px">&nbsp;128GB</b>
+  </div>
+  <hr>
+  <div id="u3">
+      Style name : <b style="font-size:20px">&nbsp;8GB</b>
+  </div>
+  <hr height="2vh">
+  <div id="u4">&nbsp;  &nbsp;
+      <span style="color: red; font-weight:300;">-28%</span> &nbsp; ₹12,999
+  </div>
+  <div id="u5">&nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp;&nbsp;M.R.P: 15,999</div>
+  <hr>
+  <div id="u6">
+      <span style="color: green">Free delivery Tommorow</span>, March 3. Order within 7 hours.
+  </div>
+  <div id="u7"></div>
+  <div id="u8">
+      Add to Cart
+  </div>
+  <div id="u9">
+      Buy Now
+  </div>
+</body>
+</html>
